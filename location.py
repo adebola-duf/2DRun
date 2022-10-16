@@ -20,7 +20,7 @@ class Location:
     def background_floor(self, screen):
         bg_image = pygame.image.load("background.png")
         bg_position = 0, 0
-        floor_image = pygame.image.load("floor night.png")
+        floor_image = pygame.image.load("floor.png")
 
         screen.blit(bg_image, bg_position)
         for i in range(2):
